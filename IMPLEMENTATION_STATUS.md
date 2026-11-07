@@ -22,6 +22,7 @@ Updated 2026-11-07. This directory is the standalone, publishable MainsMaster ap
 | Check | Result |
 | --- | --- |
 | Fresh Python 3.12 pip environment | Passed from `requirements.txt`; package imports and `pip check` passed with Pillow 13.0.0 |
+| Local clone simulation | The committed `main` branch was cloned into an empty directory, installed with `pip -r requirements.txt`, and imported from the clone successfully |
 | GPU/local-model exclusion | Confirmed absent from runtime environment and lockfile |
 | Offline tests | 22 passed; 1 opt-in database test skipped by default |
 | Database integration | Passed against configured PostgreSQL; ownership, atomic bundle, message order, vector search, and ORM cascade cleanup verified inside a rollback |
