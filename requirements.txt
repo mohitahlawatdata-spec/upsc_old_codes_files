@@ -171,7 +171,7 @@ typing-extensions==4.16.0
     #   starlette
     #   streamlit
     #   typing-inspection
-typing-inspection==0.4.4
+typing-inspection==0.4.5
     # via pydantic
 tzdata==2026.6 ; sys_platform == 'emscripten' or sys_platform == 'win32'
     # via
