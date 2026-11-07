@@ -106,7 +106,7 @@ protobuf==7.36.2
     # via streamlit
 psycopg==3.3.7
     # via mainsmaster
-psycopg-binary==3.3.7 ; implementation_name != 'pypy'
+psycopg-binary==3.3.8 ; implementation_name != 'pypy'
     # via psycopg
 pyarrow==26.0.0
     # via streamlit
