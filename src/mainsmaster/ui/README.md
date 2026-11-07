@@ -1,0 +1,3 @@
+# Streamlit interface
+
+`app.py` contains login/signup, dashboard, upload, report, and mentor chat views. `report.py` renders the two-column student/improved essay comparison with single-essay options and can recover an older report's student essay only from an exact matching local run artifact. New reports store that text with the report so reopening works without the artifact. The entry point is `streamlit_app.py` at the clean folder root. UI state is in Streamlit session state; persistent reports and chat are read through the database repository. Keep ownership checks in repository functions.
